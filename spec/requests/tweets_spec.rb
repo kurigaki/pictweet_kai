@@ -23,4 +23,14 @@ describe TweetsController, type: :request do
       expect(response.body).to include('投稿を検索する')
     end
   end
+  describe 'GET #show' do
+    it 'showアクションにリクエストすると正常にレスポンスが返ってくる' do 
+    end
+    it 'showアクションにリクエストするとレスポンスに投稿済みのツイートのテキストが存在する' do 
+    end
+    it 'showアクションにリクエストするとレスポンスに投稿済みのツイートの画像URLが存在する' do 
+    end
+    it 'showアクションにリクエストするとレスポンスにコメント一覧表示部分が存在する' do 
+    end
+  end 
 end
